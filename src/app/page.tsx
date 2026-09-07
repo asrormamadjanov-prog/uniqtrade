@@ -42,7 +42,7 @@ export default function Home() {
       </section>
 
       <section className="split">
-        <div className="split-image"><Image src={images.machinery} alt="Industrial machinery" fill sizes="50vw"/></div>
+        <div className="split-image"><Image src={images.machinery} alt="Industrial machinery" fill sizes="50vw" style={{ objectFit: "cover" }}/></div>
         <div className="split-copy"><span className="eyebrow">WHY UNIQ TRADE</span><h2 className="section-title">{c.home.whyTitle}</h2><p>{c.home.whyText}</p>
           <div className="feature-list">{c.why.slice(0,4).map(([n,t,d])=><div className="feature-item" key={n}><span>{n}</span><strong>{t}</strong><p>{d}</p></div>)}</div>
           <Link className="button button-outline" href="/why-uniq" style={{width:"fit-content",marginTop:28}}>Why UNIQ TRADE <ArrowUpRight size={16}/></Link>
@@ -56,7 +56,7 @@ export default function Home() {
       </section>
 
       <section className="quote-band">
-        <div className="quote-band-image"><Image src={images.compressor} alt="Industrial compressor system" fill sizes="100vw"/></div>
+        <div className="quote-band-image"><Image src={images.compressor} alt="Industrial compressor system" fill sizes="100vw" style={{ objectFit: "cover" }}/></div>
         <div className="quote-band-overlay"/>
         <div className="container quote-band-content">
           <span className="eyebrow">REQUEST A QUOTE</span>
