@@ -6,7 +6,7 @@ export function PageHero({ eyebrow, title, text, image = images.refinery, lang }
 }) {
   return (
     <section className="page-hero">
-      <div className="page-hero-image"><Image src={image} alt="" fill sizes="100vw" priority /></div>
+      <div className="page-hero-image"><Image src={image} alt="" fill sizes="100vw" priority style={{ objectFit: "cover" }} /></div>
       <div className="page-hero-overlay" />
       <div className="container page-hero-content">
         <span className="eyebrow">{eyebrow}</span>
