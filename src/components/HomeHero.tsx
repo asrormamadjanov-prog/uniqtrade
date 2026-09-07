@@ -7,7 +7,7 @@ export function HomeHero({ lang, data }: { lang: Lang; data: any }) {
   const ru = lang === "ru";
   return (
     <section className="hero">
-      <div className="hero-image"><Image src={images.hero} alt="Industrial equipment and compressor installation" fill priority sizes="100vw" /></div>
+      <div className="hero-image"><Image src={images.hero} alt="Industrial equipment and compressor installation" fill priority sizes="100vw" style={{ objectFit: "cover" }} /></div>
       <div className="hero-overlay" />
       <div className="container hero-content">
         <div className="hero-copy">
