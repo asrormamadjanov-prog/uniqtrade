@@ -20,7 +20,7 @@ export function HomeHero({ lang, data }: { lang: Lang; data: any }) {
           </div>
         </div>
         <div className="hero-proof">
-          <div className="hero-proof-label">{ru ? "OUR SUPPLY FOCUS" : "OUR SUPPLY FOCUS"}</div>
+          <div className="hero-proof-label">{ru ? "ОСНОВНЫЕ КАТЕГОРИИ" : "CORE CATEGORIES"}</div>
           {data.proof.map((item: string, i: number) => (
             <div className="hero-proof-item" key={item}><span>{String(i + 1).padStart(2,"0")}</span><strong>{item}</strong></div>
           ))}
