@@ -10,13 +10,19 @@ export const company = {
 };
 
 export const images = {
-  hero: "https://images.pexels.com/photos/31257317/pexels-photo-31257317.jpeg?auto=compress&cs=tinysrgb&w=2200",
-  compressor: "https://images.pexels.com/photos/31257317/pexels-photo-31257317.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  pump: "https://images.pexels.com/photos/35645884/pexels-photo-35645884.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  machinery: "https://images.pexels.com/photos/5953729/pexels-photo-5953729.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  refinery: "https://images.pexels.com/photos/15970032/pexels-photo-15970032.jpeg?auto=compress&cs=tinysrgb&w=1800",
-  mining: "https://images.pexels.com/photos/6109677/pexels-photo-6109677.jpeg?auto=compress&cs=tinysrgb&w=1800",
-  plant: "https://images.pexels.com/photos/4440200/pexels-photo-4440200.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  hero: "https://images.pexels.com/photos/10396411/pexels-photo-10396411.jpeg?auto=compress&cs=tinysrgb&w=2200",
+  compressor: "https://images.pexels.com/photos/31257317/pexels-photo-31257317.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  pump: "https://images.pexels.com/photos/35645884/pexels-photo-35645884.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  motor: "https://images.pexels.com/photos/34194564/pexels-photo-34194564.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  valves: "https://images.pexels.com/photos/10514729/pexels-photo-10514729.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  mechanical: "https://images.pexels.com/photos/28752152/pexels-photo-28752152.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  electrical: "https://images.pexels.com/photos/38217230/pexels-photo-38217230.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  machinery: "https://images.pexels.com/photos/5953729/pexels-photo-5953729.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  refinery: "https://images.pexels.com/photos/10396411/pexels-photo-10396411.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  chemical: "https://images.pexels.com/photos/30556821/pexels-photo-30556821.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  mining: "https://images.pexels.com/photos/14484399/pexels-photo-14484399.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  power: "https://images.pexels.com/photos/35596449/pexels-photo-35596449.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  plant: "https://images.pexels.com/photos/33474699/pexels-photo-33474699.jpeg?auto=compress&cs=tinysrgb&w=1800",
 };
 
 export const content = {
@@ -55,16 +61,16 @@ export const content = {
     products: [
       ["Compressors", "Components and spare parts for reciprocating, screw and centrifugal compressor systems: valves, rings, gaskets and related items.", images.compressor],
       ["Pumps", "Components and spare parts for centrifugal, process and industrial pumping equipment, including seals, impellers and bearings.", images.pump],
-      ["Engines & Motors", "Replacement and mechanical components for industrial engines, electric motors and motor-driven equipment.", images.machinery],
-      ["Valves & Piping Components", "Industrial valves, fittings, seals and related piping components for process and utility systems.", images.plant],
-      ["Mechanical Components", "Bearings, seals, gaskets, couplings, shafts and other parts for industrial equipment maintenance.", images.machinery],
-      ["Electrical & Instrumentation", "Electrical, control and instrumentation components for industrial equipment and process applications.", images.plant],
+      ["Engines & Motors", "Replacement and mechanical components for industrial engines, electric motors and motor-driven equipment.", images.motor],
+      ["Valves & Piping Components", "Industrial valves, fittings, seals and related piping components for process and utility systems.", images.valves],
+      ["Mechanical Components", "Bearings, seals, gaskets, couplings, shafts and other parts for industrial equipment maintenance.", images.mechanical],
+      ["Electrical & Instrumentation", "Electrical, control and instrumentation components for industrial equipment and process applications.", images.electrical],
     ],
     industries: [
       ["Oil & Gas", "Spare parts and components for production, processing, transportation and related facilities.", images.refinery],
-      ["Chemical", "Supply support for process equipment, production facilities and chemical plants.", images.plant],
+      ["Chemical", "Supply support for process equipment, production facilities and chemical plants.", images.chemical],
       ["Mining & Metallurgy", "Components for heavy machinery, processing equipment and metallurgical operations.", images.mining],
-      ["Industrial & Power", "Procurement support for industrial plants, utilities and power-related equipment.", images.machinery],
+      ["Industrial & Power", "Procurement support for industrial plants, utilities and power-related equipment.", images.power],
     ],
     about: {
       eyebrow: "ABOUT UNIQ TRADE",
@@ -134,16 +140,16 @@ export const content = {
     products: [
       ["Компрессоры", "Компоненты и запасные части для поршневых, винтовых и центробежных систем: клапаны, кольца, прокладки и другие позиции.", images.compressor],
       ["Насосы", "Компоненты и запасные части для центробежных, технологических и промышленных насосов: уплотнения, рабочие колёса, подшипники.", images.pump],
-      ["Двигатели и электродвигатели", "Сменные и механические компоненты для промышленных двигателей, электродвигателей и приводного оборудования.", images.machinery],
-      ["Клапаны и трубопроводные компоненты", "Промышленная арматура, фитинги, уплотнения и компоненты трубопроводных систем.", images.plant],
-      ["Механические компоненты", "Подшипники, уплотнения, прокладки, муфты, валы и другие детали для обслуживания промышленного оборудования.", images.machinery],
-      ["Электрика и КИПиА", "Электрические, управляющие и измерительные компоненты для промышленного оборудования и технологических процессов.", images.plant],
+      ["Двигатели и электродвигатели", "Сменные и механические компоненты для промышленных двигателей, электродвигателей и приводного оборудования.", images.motor],
+      ["Клапаны и трубопроводные компоненты", "Промышленная арматура, фитинги, уплотнения и компоненты трубопроводных систем.", images.valves],
+      ["Механические компоненты", "Подшипники, уплотнения, прокладки, муфты, валы и другие детали для обслуживания промышленного оборудования.", images.mechanical],
+      ["Электрика и КИПиА", "Электрические, управляющие и измерительные компоненты для промышленного оборудования и технологических процессов.", images.electrical],
     ],
     industries: [
       ["Нефтегазовая отрасль", "Запасные части и компоненты для добывающих, перерабатывающих, транспортных и других объектов.", images.refinery],
-      ["Химическая промышленность", "Поставки для технологического оборудования, производственных линий и химических предприятий.", images.plant],
+      ["Химическая промышленность", "Поставки для технологического оборудования, производственных линий и химических предприятий.", images.chemical],
       ["Горнодобывающая и металлургическая отрасли", "Компоненты для тяжёлой техники, обогатительного оборудования и металлургических производств.", images.mining],
-      ["Промышленность и энергетика", "Закупочная поддержка для промышленных предприятий, инженерных систем и энергетического оборудования.", images.machinery],
+      ["Промышленность и энергетика", "Закупочная поддержка для промышленных предприятий, инженерных систем и энергетического оборудования.", images.power],
     ],
     about: {
       eyebrow: "О КОМПАНИИ",
