@@ -16,7 +16,7 @@ export function ProductCards({ items, lang, limit }: { items: readonly (readonly
           <div className="card-body">
             <h3>{title}</h3>
             <p>{text}</p>
-            {limit && <Link href={lang === "ru" ? "/ru/products" : "/products"}>View category <ArrowUpRight size={14}/></Link>}
+            {limit && <Link href={lang === "ru" ? "/ru/products" : "/products"}>{lang === "ru" ? "Смотреть категорию" : "View category"} <ArrowUpRight size={14}/></Link>}
           </div>
         </article>
       ))}

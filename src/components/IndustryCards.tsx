@@ -14,7 +14,7 @@ export function IndustryCards({ items, lang, limit }: { items: readonly (readonl
             <span>{String(i + 1).padStart(2, "0")}</span>
             <h3>{title}</h3>
             <p>{text}</p>
-            {limit && <Link href={lang === "ru" ? "/ru/industries" : "/industries"}>Подробнее <ArrowUpRight size={14} /></Link>}
+            {limit && <Link href={lang === "ru" ? "/ru/industries" : "/industries"}>{lang === "ru" ? "Подробнее" : "View industry"} <ArrowUpRight size={14} /></Link>}
           </div>
         </article>
       ))}
