@@ -12,17 +12,17 @@ export const company = {
 export const images = {
   hero: "https://images.pexels.com/photos/10396411/pexels-photo-10396411.jpeg?auto=compress&cs=tinysrgb&w=2200",
   compressor: "https://images.pexels.com/photos/31257317/pexels-photo-31257317.jpeg?auto=compress&cs=tinysrgb&w=1800",
-  pump: "https://images.pexels.com/photos/35645884/pexels-photo-35645884.jpeg?auto=compress&cs=tinysrgb&w=1800",
-  motor: "https://images.pexels.com/photos/34194564/pexels-photo-34194564.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  pump: "https://images.pexels.com/photos/10290629/pexels-photo-10290629.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  motor: "https://images.pexels.com/photos/9754814/pexels-photo-9754814.jpeg?auto=compress&cs=tinysrgb&w=1800",
   valves: "https://images.pexels.com/photos/10514729/pexels-photo-10514729.jpeg?auto=compress&cs=tinysrgb&w=1800",
   mechanical: "https://images.pexels.com/photos/28752152/pexels-photo-28752152.jpeg?auto=compress&cs=tinysrgb&w=1800",
   electrical: "https://images.pexels.com/photos/38217230/pexels-photo-38217230.jpeg?auto=compress&cs=tinysrgb&w=1800",
-  machinery: "https://images.pexels.com/photos/5953729/pexels-photo-5953729.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  machinery: "https://images.pexels.com/photos/5953729/pexels-photo-5953729.jpeg?auto=compress&cs=tinysrgb&w=2200",
   refinery: "https://images.pexels.com/photos/10396411/pexels-photo-10396411.jpeg?auto=compress&cs=tinysrgb&w=1800",
   chemical: "https://images.pexels.com/photos/30556821/pexels-photo-30556821.jpeg?auto=compress&cs=tinysrgb&w=1800",
   mining: "https://images.pexels.com/photos/14484399/pexels-photo-14484399.jpeg?auto=compress&cs=tinysrgb&w=1800",
   power: "https://images.pexels.com/photos/35596449/pexels-photo-35596449.jpeg?auto=compress&cs=tinysrgb&w=1800",
-  plant: "https://images.pexels.com/photos/33474699/pexels-photo-33474699.jpeg?auto=compress&cs=tinysrgb&w=1800",
+  plant: "https://images.pexels.com/photos/5953723/pexels-photo-5953723.jpeg?auto=compress&cs=tinysrgb&w=1800",
 };
 
 export const content = {
